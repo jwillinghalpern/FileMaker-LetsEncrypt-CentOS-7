@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Change the domain variable to the domain/subdomain for which you would like
+# an SSL Certificate
+DOMAIN="fms.domain.com"
+
 # Enter the path to your FileMaker Server directory, ending in a slash 
 SERVER_PATH="/opt/FileMaker/FileMaker Server/"
 
